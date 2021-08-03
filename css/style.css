@@ -15,7 +15,7 @@ body {
   font-family: "Source Sans Pro", Arial, sans-serif;
   line-height: 1.8;
   font-size: 16px;
-  background: #dca8fa;
+  background: rgb(205, 227, 252);
   color: #848484;
   font-weight: 300;
   overflow-x: hidden;
@@ -25,31 +25,20 @@ body.fh5co-offcanvas {
 }
 
 a {
-  color: #dd0fc2;
+  color: #0835fd;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-span{
-  color: #e48af0;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.icon-home:before {
-  content: "\e900";
-}
-
 a:hover {
   text-decoration: none !important;
-  color: #dd0fc2 !important;
+  color: #0835fd !important;
 }
 
 p, ul, ol {
   margin-bottom: 1.5em;
   font-size: 20px;
-  color: #3f3f3f;
+  color: #848484;
   font-family: "Source Sans Pro", Arial, sans-serif;
 }
 
@@ -66,17 +55,17 @@ figure {
 
 ::-webkit-selection {
   color: #fcfcfc;
-  background: #dd0fc2;
+  background: #0835fd;
 }
 
 ::-moz-selection {
   color: #fcfcfc;
-  background: #dd0fc2;
+  background: #0835fd;
 }
 
 ::selection {
   color: #fcfcfc;
-  background: #dd0fc2;
+  background: #0835fd;
 }
 
 #fh5co-header {
@@ -89,6 +78,10 @@ figure {
 .fh5co-hero {
   position: relative;
   height: 800px;
+}
+
+fh5co-hero h2{
+  color: #08edfd;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover,
@@ -120,7 +113,8 @@ figure {
   bottom: 0;
   right: 0;
   z-index: 1;
-  background: rgba(66, 64, 64, 0.9);
+  /* background: rgba(56, 58, 58, 0.9); */
+  background: rgba(22, 45, 65, 0.9);
 }
 
 .fh5co-cover {
@@ -161,7 +155,7 @@ figure {
   }
 }
 .fh5co-cover .desc h2 {
-  color: #fff;
+  color: #08edfd;
   text-transform: uppercase;
   font-size: 60px;
   margin-bottom: 10px;
@@ -349,7 +343,9 @@ figure {
 }
 
 #fh5co-primary-menu > li > ul li.active > a {
-  color: #dd0fc2 !important;
+  color: #0835fd !important;
+  
+  
 }
 #fh5co-primary-menu > li > .sf-with-ul:after {
   border: none !important;
@@ -468,7 +464,7 @@ figure {
   background: none;
 }
 #fh5co-primary-menu .fh5co-sub-menu a:hover {
-  color: #dd0fc2 !important;
+  color: #0835fd !important;
 }
 
 #fh5co-work-section,
@@ -504,7 +500,7 @@ figure {
   width: 100px;
   margin-left: -50px;
   height: 2px;
-  background: #dd0fc2;
+  background: #0835fd;
 }
 .heading-section h3 {
   font-size: 30px;
@@ -571,6 +567,9 @@ figure {
 .services {
   margin-bottom: 5em;
 }
+span {
+  color: #08edfd;
+}
 .services span {
   margin-bottom: 30px;
   display: block;
@@ -578,7 +577,7 @@ figure {
 }
 .services span i {
   font-size: 50px;
-  color: #dd0fc2;
+  color: #0835fd;
 }
 .services h3 {
   font-size: 20px;
@@ -596,7 +595,7 @@ figure {
 
 #fh5co-services .fh5co-number {
   font-size: 30px;
-  color: #dd0fc2;
+  color: #1fb5f6;
   position: relative;
   padding-top: 10px;
   font-style: italic;
@@ -612,7 +611,7 @@ figure {
   height: 3px;
   top: 0;
   left: 0;
-  background: #dd0fc2;
+  background: #1fb5f6;
 }
 #fh5co-services .fh5co-icon {
   margin-bottom: 30px;
@@ -631,7 +630,7 @@ figure {
 }
 #fh5co-services .fh5co-icon i {
   font-size: 200px;
-  color: #dd0fc2;
+  color: #0835fd;
 }
 @media screen and (max-width: 768px) {
   #fh5co-services .fh5co-icon i {
@@ -775,7 +774,7 @@ figure {
   color: rgba(0, 0, 0, 0.3);
 }
 .fh5co-blog .image-popup span.comment a i {
-  color: #dd0fc2;
+  color: #0835fd;
   padding-left: 7px;
 }
 .fh5co-blog .image-popup h3 {
@@ -788,7 +787,7 @@ figure {
 
 #fh5co-start-project-section {
   padding: 7em 0;
-  background: #dd0fc2;
+  background: #F64E8B;
 }
 #fh5co-start-project-section h2 {
   color: white;
@@ -818,7 +817,7 @@ figure {
 
 .fh5co-social-icons > a {
   padding: 4px 10px;
-  color: #dd0fc2;
+  color: #0835fd;
 }
 .fh5co-social-icons > a i {
   font-size: 26px;
@@ -856,14 +855,14 @@ figure {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #dd0fc2;
+  background: #0835fd;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #dd0fc2;
+  background: #0835fd;
   color: #fff !important;
 }
 .btn:hover, .btn:active, .btn:focus {
@@ -936,14 +935,14 @@ figure {
   color: rgba(255, 255, 255, 0.4);
 }
 #offcanvas-menu ul li a:hover {
-  color: #dd0fc2;
+  color: #0835fd;
 }
 #offcanvas-menu ul li > .fh5co-sub-menu {
   margin-top: 9px;
   padding-left: 20px;
 }
 #offcanvas-menu ul li.active > a {
-  color: #dd0fc2;
+  color: #0835fd;
 }
 #offcanvas-menu ul .fh5co-sub-menu {
   display: block !important;
